@@ -31,5 +31,15 @@ class Spaceship():
         # if input = d then decelerate
         pass
 
+    def hyperdrive(self):
+        # hyperdrive - jump to random planet
+        # 4 planets to choose from
+        # add input to where 
+        # input = hyperdrive 
+        pass
+
+    def exit():
+        # ends program
+        pass
 
 spaceship = Spaceship()
