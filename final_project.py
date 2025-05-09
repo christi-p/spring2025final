@@ -6,6 +6,7 @@
 """
 
 # vehicle = spaceship
+PLANETS = [Mars, Venus, Jupiter]
 
 class Spaceship():
     # ------ MAIN ----- #
@@ -17,9 +18,15 @@ class Spaceship():
         # ask for maximum speed
         pass
 
-    def ascent(self):
-        # take off from Earth
-        pass
+    def ascent(self, ascent):
+        self.ascent = ascent
+        print("You are now leaving Earth!")
+        destination = input("Which planet would you like to go to? (Mars, Venus, Jupiter): ")
+        if destination == PLANETS:
+            print("Off we go!")
+        else:
+            print()
+
 
     def accelerate(self):
         # acceleration method
