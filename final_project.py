@@ -6,14 +6,18 @@
 """
 
 # vehicle = spaceship
-PLANETS = [Mars, Venus, Jupiter]
 
 class Spaceship():
+    def __init__(self,):
+        pass
     # ------ MAIN ----- #
     def main_spaceship(self):
         self.spaceship = spaceship
         # ask for captain's name
+        captain = input("What is the captain's name? ")
+        print("Your name is")
         # ask for what they want to name their ship
+
         # ask for maximum capacity
         # ask for maximum speed
         pass
@@ -22,8 +26,9 @@ class Spaceship():
         self.ascent = ascent
         print("You are now leaving Earth!")
         destination = input("Which planet would you like to go to? (Mars, Venus, Jupiter): ")
-        if destination == PLANETS:
+        if destination == Mars:
             print("Off we go!")
+        if destination == Jupiter:
         else:
             print()
 
